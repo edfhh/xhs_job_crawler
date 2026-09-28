@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 运行产物与凭据（真实抓取数据 / 登录态严禁入库）
+data/*.json
+data/*.html
+data/_probe_*
+data/_web_test.txt
+data/browser_user_data*/
+data/xhs_state.json
+
+# 系统与 IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
